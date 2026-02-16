@@ -1,10 +1,3 @@
-//
-//  GoalPredictorAIApp.swift
-//  GoalPredictorAI
-//
-//  Created by Danny Mairena Jarquin on 2/15/26.
-//
-
 import SwiftUI
 
 @main

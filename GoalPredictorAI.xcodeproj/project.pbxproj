@@ -6,17 +6,40 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXFileReference section */
-		5A3C0BCE2F42AB0500F16719 /* GoalPredictorAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoalPredictorAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
-/* End PBXFileReference section */
+/* Begin PBXBuildFile section */
+		5A3C0C5E2F42ADA900F16719 /* GoalPredictorAIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3C0C5C2F42AC6000F16719 /* GoalPredictorAIApp.swift */; };
+		5A3C0C5F2F42AF2D00F16719 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3C0C572F42AC6000F16719 /* ContentView.swift */; };
+		5A3C0C602F42AF3800F16719 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3C0C582F42AC6000F16719 /* HomeView.swift */; };
+		5A3C0C612F42AF3E00F16719 /* PlayerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3C0C5A2F42AC6000F16719 /* PlayerDetailView.swift */; };
+		5A3C0C622F42B09300F16719 /* MyPredictionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3C0C592F42AC6000F16719 /* MyPredictionsView.swift */; };
+		5A3C0C632F42B09E00F16719 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3C0C532F42AC6000F16719 /* HomeViewModel.swift */; };
+		5A3C0C642F42B0A300F16719 /* PlayerDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3C0C542F42AC6000F16719 /* PlayerDetailViewModel.swift */; };
+		5A3C0C652F42B0B700F16719 /* OpenAIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3C0C502F42AC6000F16719 /* OpenAIService.swift */; };
+		5A3C0C662F42B0C000F16719 /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3C0C512F42AC6000F16719 /* StorageService.swift */; };
+		5A3C0C672F42B11600F16719 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3C0C4B2F42AC6000F16719 /* Color+Extensions.swift */; };
+		5A3C0C682F42B11D00F16719 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3C0C4D2F42AC6000F16719 /* Models.swift */; };
+		5A3C0C6A2F42B54A00F16719 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3C0C4F2F42AC6000F16719 /* DataService.swift */; };
+		5A3C0C6E2F42DBC300F16719 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3C0C6D2F42DBC300F16719 /* APIService.swift */; };
+		5A3C0C702F42E00000F16719 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3C0C6F2F42E00000F16719 /* Theme.swift */; };
+/* End PBXBuildFile section */
 
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		5A3C0BD02F42AB0500F16719 /* GoalPredictorAI */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = GoalPredictorAI;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
+/* Begin PBXFileReference section */
+		5A3C0C4B2F42AC6000F16719 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		5A3C0C4D2F42AC6000F16719 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		5A3C0C4F2F42AC6000F16719 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		5A3C0C502F42AC6000F16719 /* OpenAIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAIService.swift; sourceTree = "<group>"; };
+		5A3C0C512F42AC6000F16719 /* StorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
+		5A3C0C532F42AC6000F16719 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		5A3C0C542F42AC6000F16719 /* PlayerDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDetailViewModel.swift; sourceTree = "<group>"; };
+		5A3C0C572F42AC6000F16719 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5A3C0C582F42AC6000F16719 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		5A3C0C592F42AC6000F16719 /* MyPredictionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPredictionsView.swift; sourceTree = "<group>"; };
+		5A3C0C5A2F42AC6000F16719 /* PlayerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDetailView.swift; sourceTree = "<group>"; };
+		5A3C0C5C2F42AC6000F16719 /* GoalPredictorAIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalPredictorAIApp.swift; sourceTree = "<group>"; };
+		5A3C0C692F42B47C00F16719 /* GoalPredictorAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoalPredictorAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A3C0C6D2F42DBC300F16719 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		5A3C0C6F2F42E00000F16719 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		5A3C0BCB2F42AB0500F16719 /* Frameworks */ = {
@@ -32,17 +55,79 @@
 		5A3C0BC52F42AB0500F16719 = {
 			isa = PBXGroup;
 			children = (
-				5A3C0BD02F42AB0500F16719 /* GoalPredictorAI */,
-				5A3C0BCF2F42AB0500F16719 /* Products */,
+				5A3C0C5D2F42AC6000F16719 /* GoalPredictorAI */,
+				5A3C0C692F42B47C00F16719 /* GoalPredictorAI.app */,
 			);
 			sourceTree = "<group>";
 		};
-		5A3C0BCF2F42AB0500F16719 /* Products */ = {
+		5A3C0C4C2F42AC6000F16719 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				5A3C0BCE2F42AB0500F16719 /* GoalPredictorAI.app */,
+				5A3C0C4B2F42AC6000F16719 /* Color+Extensions.swift */,
+				5A3C0C6F2F42E00000F16719 /* Theme.swift */,
 			);
-			name = Products;
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5A3C0C4E2F42AC6000F16719 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5A3C0C4D2F42AC6000F16719 /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5A3C0C522F42AC6000F16719 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				5A3C0C6D2F42DBC300F16719 /* APIService.swift */,
+				5A3C0C4F2F42AC6000F16719 /* DataService.swift */,
+				5A3C0C502F42AC6000F16719 /* OpenAIService.swift */,
+				5A3C0C512F42AC6000F16719 /* StorageService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		5A3C0C552F42AC6000F16719 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				5A3C0C532F42AC6000F16719 /* HomeViewModel.swift */,
+				5A3C0C542F42AC6000F16719 /* PlayerDetailViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		5A3C0C562F42AC6000F16719 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		5A3C0C5B2F42AC6000F16719 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5A3C0C562F42AC6000F16719 /* Components */,
+				5A3C0C572F42AC6000F16719 /* ContentView.swift */,
+				5A3C0C582F42AC6000F16719 /* HomeView.swift */,
+				5A3C0C592F42AC6000F16719 /* MyPredictionsView.swift */,
+				5A3C0C5A2F42AC6000F16719 /* PlayerDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5A3C0C5D2F42AC6000F16719 /* GoalPredictorAI */ = {
+			isa = PBXGroup;
+			children = (
+
+				5A3C0C4C2F42AC6000F16719 /* Extensions */,
+				5A3C0C4E2F42AC6000F16719 /* Models */,
+				5A3C0C522F42AC6000F16719 /* Services */,
+				5A3C0C552F42AC6000F16719 /* ViewModels */,
+				5A3C0C5B2F42AC6000F16719 /* Views */,
+				5A3C0C5C2F42AC6000F16719 /* GoalPredictorAIApp.swift */,
+			);
+			path = GoalPredictorAI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -60,14 +145,11 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				5A3C0BD02F42AB0500F16719 /* GoalPredictorAI */,
-			);
 			name = GoalPredictorAI;
 			packageProductDependencies = (
 			);
 			productName = GoalPredictorAI;
-			productReference = 5A3C0BCE2F42AB0500F16719 /* GoalPredictorAI.app */;
+			productReference = 5A3C0C692F42B47C00F16719 /* GoalPredictorAI.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -95,7 +177,7 @@
 			mainGroup = 5A3C0BC52F42AB0500F16719;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 5A3C0BCF2F42AB0500F16719 /* Products */;
+			productRefGroup = 5A3C0BC52F42AB0500F16719;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -119,6 +201,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A3C0C682F42B11D00F16719 /* Models.swift in Sources */,
+				5A3C0C612F42AF3E00F16719 /* PlayerDetailView.swift in Sources */,
+				5A3C0C642F42B0A300F16719 /* PlayerDetailViewModel.swift in Sources */,
+				5A3C0C6A2F42B54A00F16719 /* DataService.swift in Sources */,
+
+				5A3C0C632F42B09E00F16719 /* HomeViewModel.swift in Sources */,
+				5A3C0C652F42B0B700F16719 /* OpenAIService.swift in Sources */,
+				5A3C0C602F42AF3800F16719 /* HomeView.swift in Sources */,
+				5A3C0C6E2F42DBC300F16719 /* APIService.swift in Sources */,
+				5A3C0C672F42B11600F16719 /* Color+Extensions.swift in Sources */,
+				5A3C0C5F2F42AF2D00F16719 /* ContentView.swift in Sources */,
+				5A3C0C622F42B09300F16719 /* MyPredictionsView.swift in Sources */,
+				5A3C0C662F42B0C000F16719 /* StorageService.swift in Sources */,
+				5A3C0C5E2F42ADA900F16719 /* GoalPredictorAIApp.swift in Sources */,
+				5A3C0C702F42E00000F16719 /* Theme.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,11 +362,14 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -295,11 +395,14 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
